@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Gráficos y Análisis</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #d4ddf9;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #004677;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    /* TARJETAS DE CONTENIDO */
+    .card {
+      display: flex;
+      background: white;
+      border-radius: 15px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 30px;
+      gap: 20px;
+      align-items: center;
+    }
+
+    .card img {
+      width: 40%;
+      border-radius: 12px;
+    }
+
+    .card-text {
+      width: 30%;
+    }
+
+    .card-text h2 {
+      margin-top: 0;
+      color: #0077cc;
+    }
+
+    .card-text p {
+      line-height: 1.5;
+      color: #444;
+    }
+
+    .card-textt p  {
+      line-height: 1.5;
+      color: #444;
+      width: 100%;
+    }
+
+    .card_4 {
+      display: flex;
+      background: white;
+      border-radius: 10px;
+      min-height: 100px;
+      padding: 20px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      margin-bottom: 10px;
+      gap: 0px;
+      align-items: center;
+    }
+
+    .card_4 img {
+      width: 40%;
+      border-radius: 12px;
+    }
+
+    .card-text-4 h2 {
+      margin-top: 5px;
+      color: #0077cc
+    } 
+
+  .card-text-4 p {
+    margin-top: 5px;
+    line-height: 1.3;
+    color: #444
+   }
+    /* ADORNOS EXTRA */
+    .badge {
+      display: inline-block;
+      background: #0077cc;
+      color: white;
+      padding: 5px 12px;
+      border-radius: 20px;
+      font-size: 13px;
+      margin-bottom: 10px;
+    }
+
+    .separator {
+      height: 4px;
+      background: #0077cc;
+      width: 80px;
+      margin: 20px auto;
+      border-radius: 2px;
+    }
+
+    .a {
+    text-decoration: none;
+    border: 1px solid #333;
+    color: #fff;
+    background-color: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    }
+
+  </style>
+
+</head>
+<body>
+  <div style="display: flex; justify-content: space-between; align-items: center; max-width: 1000px; margin: 0 auto 20px;"></div>
+    <h1 style="flex: 1; text-align: center; margin: 0;"">Gráficos y Análisis</h1>
+
+  <a class="a" onclick="window.location.href='index.html'">Volver</a>
+  </div> 
+  
+  <div class="separator"></div>
+
+  <div class="container">
+
+    <!-- BLOQUE 1 -->
+    <div class="card">
+      <img src="imagenes/grafico_rendimiento_grado.png" alt="Gráfico 1">
+      <div class="card-text">
+        <span class="badge">Gráfico 1</span>
+        <h2>Promedios por grado de la Enseñanza Media</h2>
+        <p>
+          La pregunta para este gráfico fué:
+          ¿Que tanto cambió los resultados de los promedios antes, durante y post pandemia?
+          
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <!-- <img src="imagenes/diferencia.png" alt="Gráfico 3"> -->
+      <div class="card-textt">
+        <span class="badge">Explicación Gráfico 1</span>
+        <!-- <h2>Cambios en la Asistencia</h2> -->
+        <p>
+          Este gráfico muestra la evolución del rendimiento académico durante los años.
+          <br>
+          Se observa en todos los grados una tendencia eascendente con un pick notorio en 2020.
+        </p>
+      </div>
+    </div>
+
+
+    <!-- BLOQUE 2 -->
+    <div class="card_4">
+  
+  <!-- Grid con 4 gráficos -->
+    <div class="grid_4">
+      <img src="imagenes/proyeccion_grado1.png" alt="Gráfico 2.1">
+      <img src="imagenes/proyeccion_grado2.png" alt="Gráfico 2.2">
+      <img src="imagenes/proyeccion_grado3.png" alt="Gráfico 2.3">
+      <img src="imagenes/proyeccion_grado4.png" alt="Gráfico 2.4">
+    </div>
+      <div class="card-text">
+        <span class="badge">Gráfico 2</span>
+        <h2>Comparación por Establecimiento</h2>
+        <p>
+          Con estos 4 graficos quisimos responder a la pregunta:
+          <br>
+          ¿Qué hubiera pasado con los promedios sin la Pandemia?
+           
+          
+
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <!-- <img src="imagenes/diferencia.png" alt="Gráfico 3"> -->
+      <div class="card-textt">
+        <span class="badge">Explicación Gráfico 2</span>
+        <!-- <h2>Cambios en la Asistencia</h2> -->
+        <p>
+          Aquí se comparan, para cada grado, la proyección de los promedios sin la pandemia y los datos reales. En ambos casos se observa una
+          tendencia ascendente, sin embargo, gracias a la pandemia, se produjo un cambio importante en 2020.
+          <br>
+          Podemos concluir que
+          aunque los datos reales en 2020 fueron más altos que la proyección, después de 2020, los datos reales de I° Y II° medio
+          fueron más bajos que su proyección, mientras que los de III° y IV° medio continuaron manteniendo una diferencia.
+        </p>
+      </div>
+    </div>
+
+    <!-- BLOQUE 3 -->
+    <div class="card">
+      <img src="imagenes/diferencia.png" alt="Gráfico 3">
+      <div class="card-text">
+        <span class="badge">Gráfico 3</span>
+        <h2>"Diferencia en 2020 "</h2>
+        <p>
+          Como en los graficos anteriores no se calculó la diferencia que tanto estamos buscando,
+          en este gráfico se calcula para cada grado, su diferencia con la proyección.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <!-- <img src="imagenes/diferencia.png" alt="Gráfico 3"> -->
+      <div class="card-textt">
+        <span class="badge">Explicación Gráfico 3</span>
+        <!-- <h2>Cambios en la Asistencia</h2> -->
+        <p>
+          Concluimos que la diferencia de III° y IV° medio fueron casi el doble que los de I° y II° medio.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img src="imagenes/promedio_por_tipo.png" alt="Gráfico 4">
+      <div class="card-text">
+        <span class="badge">Gráfico 4</span>
+        <h2>Comparación por Establecimiento</h2>
+        <p> Queríamos investigar si existío una brecha en los promedios entre los distintos tipos de establecimientos educacionales.
+          
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <!-- <img src="imagenes/diferencia.png" alt="Gráfico 3"> -->
+      <div class="card-textt">
+        <span class="badge">Explicación Gráfico 4</span>
+        <!-- <h2>Cambios en la Asistencia</h2> -->
+        <p>
+        Observamos que, incluso antes de la pandemia ya existia una gran brecha entre los establecimientos
+         particulares con los subencionados o municipales y que debido a la pandemia esta brecha creció aun más.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img src="imagenes/promedio_comuna.png" alt="Gráfico 5">
+      <div class="card-text">
+        <span class="badge">Gráfico 5</span>
+        <h2>Comparación por Comuna</h2>
+        <p>
+          Buscamos determinar la comuna con la mayor y la menor alza en 2020
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-textt">
+        <span class="badge">Explicación Gráfico 5</span>
+        <p>
+        Notamos que la comuna con la mayor alza en sus promedios fue la comuna de providencia
+        </p>
+      </div>
+    </div>
+
+
+    <div class="card">
+      <img src="imagenes/promedio_ensenanza.png" alt="Gráfico 6">
+      <div class="card-text">
+        <span class="badge">Gráfico 6</span>
+        <h2>Comparación por tipo de Establecimiento Educacional</h2>
+        <p>
+          El objetivo de este gráfico fue contestar a:
+          <br>¿Qué tanta fué la diferencia en 2020 de los promedios entre los Técnicos y los Científicos Humanistas?
+        </p>
+      </div>
+    </div>
+    
+    <div class="card">
+      <div class="card-textt">
+        <span class="badge">Explicación Gráfico 6</span>
+        <p>
+        Se aprecia que en 2020, ambos tipos de establecimiento tienen una diferencia de casi 4 décimas,
+        pero que esta, ya se mantenía de antes, cosa que cambió después de 2022, curiosamente fué el 
+        primer año de regreso de la pandemia y es cuando la Prueba de Acceso a la Educación Superior (PAES) 
+        modificó su escala pasando de 850 a 1000 pts.
+        </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <img src="imagenes/graf_cajon_ensenanza.png" alt="Gráfico 7">
+      <div class="card-text">
+        <span class="badge">Gráfico 7</span>
+        <h2>Comparación pre y post Pandemia según tipo de Establecimiento Educacional</h2>
+        <p>
+          Nuestro propósito al realizar este análisis fue comparar la distribución de los promedios
+          pre y post pandemia según el tipo de establecimiento.
+        </p>
+      </div>
+
+    </div>
+
+    <div class="card">
+      <div class="card-textt">
+        <span class="badge">Explicación Gráfico 7</span>
+        <p>
+        Esto demuestra que los establecimientos Científicos Humanistas aumentaron en la dispersión de sus promedios
+        y que los establecimientos Técnicos no aumentaron la dispersión  notoriamente pero sí, hubo un crecimiento 
+        en conjunto de los promedios.
+        </p>
+      </div>
+    </div>
+    
+</body>
+</html>
