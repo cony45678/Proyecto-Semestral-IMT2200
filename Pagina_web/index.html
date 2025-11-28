@@ -37,14 +37,7 @@ gtag('config', 'G-MEX3645FFV');
 </script>
 <style>
     @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap");
-    html {
-      scroll-behavior: smooth;
-    }
-    * {
-      margin: 0;
-      padding: 0;
-      /*font-family: ;*/
-    }
+
     body {
       font-family: "Source Sans Pro", sans-serif;
       color: #03078e;
@@ -417,6 +410,18 @@ gtag('config', 'G-MEX3645FFV');
       color: white
     }
 
+    .rectangulo2 {
+      display: flex;
+      width: 100%;
+      height: 309px;
+      padding: 0 3rem;
+      object-fit: cover;
+      position: relative;
+      align-items: center;
+      z-index: 1;
+      background-color: #004677;
+      color: white
+    }
     
   </style>
 
@@ -447,33 +452,23 @@ gtag('config', 'G-MEX3645FFV');
         <br>
         <br>
         <br>
-        <br>
-        <br>
         </p>
-        
-        <section class="ministries-section">
-          <div class="container" style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
-            
+        <div class="rectangulo2">
+          <div style="display: flex; justify-content: right; gap: 2rem; flex-wrap: wrap; width: 100%;">
             <!-- Ministerio del Interior -->
             <div style="flex: 1; min-width: 250px; text-align: center;">
               <h2>Motivación</h2>
-              <!-- <p>Interés y preguntas clave:</p> -->
-              <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-                <button class="btn btn-primary" onclick="window.location.href='motivacion.html'">Interés y preguntas clave:</button>
-              </div>
+              <button class="btn btn-primary" onclick="window.location.href='motivacion.html'">Interés y preguntas clave</button>
             </div>
 
             <!-- Ministerio de Relaciones Exteriores -->
             <div style="flex: 1; min-width: 250px; text-align: center;">
               <h2>Explicación</h2>
-              <!-- <p></p> -->
-              <div style="display: flex; justify-content: center; gap: 1rem; flex-wrap: wrap;">
-                <button class="btn btn-primary" onclick="window.location.href='graficos.html'">Gráficos y Análisis:</button>
-              </div>
+              <button class="btn btn-primary" onclick="window.location.href='graficos.html'">Gráficos y Análisis</button>
             </div>
-
           </div>
-        </section>
+        </div>
+      </section>
 
     
 
